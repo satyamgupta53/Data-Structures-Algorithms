@@ -1,0 +1,2 @@
+Hi! this is the test data for output file stream.
+Thank you so much !

@@ -1,0 +1,3 @@
+Hi, this is the test file.
+Here to check how input and output streams work.
+Thank you !!

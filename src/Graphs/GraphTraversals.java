@@ -30,7 +30,7 @@ public class GraphTraversals {
         graph.get(5).add(new Edge(5, 4));
         graph.get(5).add(new Edge(5, 6));
 
-        graph.get(6).add(new Edge(6, 5));
+        graph.getLast().add(new Edge(6, 5));
     }
 
     public static void breadthFirstSearch(ArrayList<ArrayList<Edge>> graph, int vertices, boolean[] visited, int startingPoint) {

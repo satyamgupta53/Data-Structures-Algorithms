@@ -23,6 +23,7 @@ public class WeightedGraph {
 
     public static void main(String[] args) {
         int vertices = 4;
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[vertices];
         createGraph(graph); // used adjacency list method to store graph
         printNeighbor(graph, 2);
